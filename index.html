@@ -1,72 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- 
-      This is an HTML comment
-      You can write text in a comment and the content won't be visible in the page
-    -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>Cool</title>
 
-    <!--
-      This is the page head - it contains info the browser uses
-      Like the title, which appears on the browser tab but not inside the page
-      Further down you'll see the content that displays in the page
-    -->
-    <title>Hello World!</title>
-
-    <!-- The website stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
-
-    <!-- The website JavaScript file -->
-    <script src="/script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
-    <!--
-      The body includes the content you see in the page
-      Each element is defined using tags, like this <div></div>
-      The attributes like class="wrapper" let us style elements in the CSS
-    -->
-    <div class="wrapper">
-      <div class="content" role="main">
-        <h1 class="title">Hello World!</h1>
-        <img
-          src="https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2Fillustration.svg?v=1618177344016"
-          class="illustration"
-          alt="Editor illustration"
-          title="Click the image!"
-        />
-        <div class="instructions">
-          <h2>Using this project</h2>
-          <p>
-            This is the Glitch <strong>Hello Website</strong> project. You can
-            use it to build your own site. Check out the code in the editor and open
-            the <span class="fileopener" data-file="TODO.md" data-line="0"
-              >TODO</span> for next steps!
-          </p>
-          <!--  🚧 TODO: ADD BUTTON HERE -->
-
-          <!-- Once you've added the button from TODO.md, click it in the page -->
-          <!-- Check out the function in script.js to see how it works -->
+    <header>
+      <nav>
+        <div class="container">
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="stage.html">Stage</a></li>
+            <li><a href="services.html">services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
-      </div>
+      </nav>
+
+      <h1>Bienvenue dans notre plateforme de service cool !</h1>
+    </header>
+
+    <div class="container main">
+      <section class="content">
+        <div class="article">
+          <h2>web force 3</h2>
+          <div class="image-principal">
+            <img src="images/1.png" alt="attention il n'existe pas " />
+          </div>
+          <h3><a href="wf3.html"> wf3</a></h3>
+          <span class="categorie"> école 1 </span> -
+          <span class="date">rentrée le 27 Fév 2023 </span>
+          <p>l'école des métiers du numérique pour tous !</p>
+        </div>
+        <div class="article">
+          <h2>Pont lumineux</h2>
+          <div class="image-principal">
+            <img src="images/3.jpg" alt="attention il n'existe pas " />
+          </div>
+          <h3><a href="css.html"> wf3</a></h3>
+          <span class="categorie"> Pont</span> -
+          <span class="date">Rénover le 30 Fév 2020 </span>
+          <p>Une belle Pont lumineux !</p>
+        </div>
+        <div class="article">
+          <h2>Building</h2>
+          <div class="image-principal">
+            <img src="images/4.jpg" alt="attention il n'existe pas " />
+          </div>
+          <h3><a href="css.html"> Building</a></h3>
+          <span class="categorie"> Style de building</span> -
+          <span class="date">phots prix pour le 30 Fév 2023 </span>
+          <p>Notre building!</p>
+        </div>
+        <div class="article">
+          <h2>CSS</h2>
+          <div class="image-principal">
+            <img src="images/2.png" alt="attention il n'existe pas " />
+          </div>
+          <h3><a href="css.html"> Css</a></h3>
+          <span class="categorie"> Module</span> -
+          <span class="date">module pour le 30 Fév 2023 </span>
+          <p>Cours pour ce module CSS !</p>
+        </div>
+      </section>
+
+      <section class="sidebar">
+        <form action="">
+          <input
+            type="text"
+            name="recherche"
+            placeholder="tape vos recherche"
+          />
+          <input type="submit" value="RCH" />
+        </form>
+
+        <h4>Mes catégories</h4>
+        <ul>
+          <li><a href="wf3.html">wf3</a></li>
+          <li><a href="wf3.html">Building</a></li>
+          <li><a href="wf3.html">Pont</a></li>
+          <li><a href="wf3.html">CSS</a></li>
+        </ul>
+        <h4>Les avis</h4>
+
+        <ul>
+          <li>
+            <i>Cool</i><br />
+            - Jacque
+          </li>
+          <li>
+            <i>Pas bon</i><br />
+            - Paul
+          </li>
+          <li>
+            <i>Top</i><br />
+            - Feno
+          </li>
+        </ul>
+      </section>
     </div>
-    <!-- The footer holds our remix button — you can keep or delete it ✂ -->
-    <footer class="footer">
-      <div class="links"></div>
-      <a
-        class="btn--remix"
-        target="_top"
-        href="https://glitch.com/edit/#!/remix/glitch-hello-website"
-      >
-        <img
-          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
-          alt=""
-        />
-        Remix on Glitch
-      </a>
+
+    <footer>
+      <div class="container">
+        <p>&copy; Tous droits réservés au cool</p>
+      </div>
     </footer>
   </body>
 </html>
