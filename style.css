@@ -30,9 +30,11 @@ header h1 {
 header ul {
   margin: 0;
   padding: 0;
+  position: fixed;
 }
 header ul li {
   display: inline-block;
+  position: fixed;
 }
 header a hover {
   color: #ffffff;
