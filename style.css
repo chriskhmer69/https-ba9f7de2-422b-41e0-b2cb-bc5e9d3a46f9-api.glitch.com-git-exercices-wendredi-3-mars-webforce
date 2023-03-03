@@ -111,7 +111,7 @@ input, textarea {
 .sidebar ul {
     margin: 0;
     padding: 0 10px 0 0;
-    font-weight: 300;
+    font-weighffft: 300;
 }
 .sidebar ul li{
     list-style-type: none;
@@ -128,16 +128,4 @@ footer{
     margin: 25px 0;
 }
 article, .commentaires {
-    padding: 25px 40px 40px 25px;
-}
-article h2 {
-    margin-bottom: 5px;
-}
-
-article .contenu {
-    margin: 25px;
-}
-hr {
-    color: #db1596;
-    width: 60%;
-}
+    padding: 2
